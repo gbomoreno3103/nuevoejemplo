@@ -1,0 +1,59 @@
+
+main {
+Width: 100%;
+Height: 100%;
+Display: block;
+Margin: 0;
+Float: none;
+Position: fixed;
+Top: 0;
+Left: 0;
+Z-index: 999;
+Background: #333;
+}
+
+main section #zona-infografia {
+Width:1100px;
+Height: 700px;
+Display: block;
+Margin: 0;
+Float: none;
+Position: relative;
+Background: url(../img/producto.jpg) no-repeat top center;
+Background-size: cover;
+}
+
+main section #zona-infografia figure {
+Width:100%;
+Height: 700px;
+Display: block;
+Margin: 0 auto;
+Float: none;
+Position: relative;
+}
+
+main section#zona-infografia figure div.caja-info{
+  display: block;
+  margin: 0;
+  float: none;
+  position: absolute;
+  background: #f9f9f9;
+  
+}
+
+main section#zona-infografia figure div.caja-info#caja-01{
+width: 300px;
+height: 500px;
+top: 300px;
+left:500px;
+}
+
+main section#zona-infografia figure div.caja-info#caja-02{
+width: 300px;
+height: 500px;
+top: 100px;
+left:230px;
+}
+
+
+
